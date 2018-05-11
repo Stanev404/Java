@@ -1,0 +1,4 @@
+interface Shipment {
+
+     double shippingPrice();
+}
