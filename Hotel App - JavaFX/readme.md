@@ -5,4 +5,4 @@
 * Processing data in and out
 * Exceptions, Files, Classes and GUI
 
-![](hoteldata.png)
+![](hotelinterface.png)
