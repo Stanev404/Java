@@ -1,13 +1,13 @@
-Домашна работа № 6 / седмица 8 
-# Символни низове 
+Р”РѕРјР°С€РЅР° СЂР°Р±РѕС‚Р° в„– 6 / СЃРµРґРјРёС†Р° 8 
+# РЎРёРјРІРѕР»РЅРё РЅРёР·РѕРІРµ 
  
-**Задача 1.** 
-• Да се реализира **клас Публикация (Post)**, която се определя от пореден номер (задава се автоматично с 1 по-голям от този на предходната публикация), заглавие на публикацията и текст на публикацията. Класът Публикация трябва да има минимум следните методи: 
-1. Метод, който проверява дали даден низ се среща като подниз в заглавието на публикацията; 
-2. Метод, който връща колко пъти даден низ се среща като подниз в текста на публикацията; 
-• Да се реализира клас **Блог (Blog)**, който има списък от публикации. В клас Блог да се реализира минимум следния метод: 
-1. Метод, който по даден низ отпечатва списък със заглавията на публикациите, в които този низ се среща като подниз в текста на публикацията. Трябва първо да се отпечатват публикациите, в текста, на които подниза се среща най-често. Пример: Низът е OOP Заглавие: Definition of OOP Concepts in Java (https://stackify.com/oops-concepts-in-java/) Текст: OOP concepts in Java are the main ideas behind Java’s Object Oriented Programming. They are an abstraction, encapsulation, inheritance, and polymorphism. Grasping them is key to understanding how Java works. Basically, Java OOP concepts let us create working methods and variables, then reuse all or part of them without compromising security. 
+**Р—Р°РґР°С‡Р° 1.** 
+вЂў Р”Р° СЃРµ СЂРµР°Р»РёР·РёСЂР° **РєР»Р°СЃ РџСѓР±Р»РёРєР°С†РёСЏ (Post)**, РєРѕСЏС‚Рѕ СЃРµ РѕРїСЂРµРґРµР»СЏ РѕС‚ РїРѕСЂРµРґРµРЅ РЅРѕРјРµСЂ (Р·Р°РґР°РІР° СЃРµ Р°РІС‚РѕРјР°С‚РёС‡РЅРѕ СЃ 1 РїРѕ-РіРѕР»СЏРј РѕС‚ С‚РѕР·Рё РЅР° РїСЂРµРґС…РѕРґРЅР°С‚Р° РїСѓР±Р»РёРєР°С†РёСЏ), Р·Р°РіР»Р°РІРёРµ РЅР° РїСѓР±Р»РёРєР°С†РёСЏС‚Р° Рё С‚РµРєСЃС‚ РЅР° РїСѓР±Р»РёРєР°С†РёСЏС‚Р°. РљР»Р°СЃСЉС‚ РџСѓР±Р»РёРєР°С†РёСЏ С‚СЂСЏР±РІР° РґР° РёРјР° РјРёРЅРёРјСѓРј СЃР»РµРґРЅРёС‚Рµ РјРµС‚РѕРґРё: 
+1. РњРµС‚РѕРґ, РєРѕР№С‚Рѕ РїСЂРѕРІРµСЂСЏРІР° РґР°Р»Рё РґР°РґРµРЅ РЅРёР· СЃРµ СЃСЂРµС‰Р° РєР°С‚Рѕ РїРѕРґРЅРёР· РІ Р·Р°РіР»Р°РІРёРµС‚Рѕ РЅР° РїСѓР±Р»РёРєР°С†РёСЏС‚Р°; 
+2. РњРµС‚РѕРґ, РєРѕР№С‚Рѕ РІСЂСЉС‰Р° РєРѕР»РєРѕ РїСЉС‚Рё РґР°РґРµРЅ РЅРёР· СЃРµ СЃСЂРµС‰Р° РєР°С‚Рѕ РїРѕРґРЅРёР· РІ С‚РµРєСЃС‚Р° РЅР° РїСѓР±Р»РёРєР°С†РёСЏС‚Р°; 
+вЂў Р”Р° СЃРµ СЂРµР°Р»РёР·РёСЂР° РєР»Р°СЃ Р‘Р»РѕРі (Blog), РєРѕР№С‚Рѕ РёРјР° СЃРїРёСЃСЉРє РѕС‚ РїСѓР±Р»РёРєР°С†РёРё. Р’ РєР»Р°СЃ Р‘Р»РѕРі РґР° СЃРµ СЂРµР°Р»РёР·РёСЂР° РјРёРЅРёРјСѓРј СЃР»РµРґРЅРёСЏ РјРµС‚РѕРґ: 
+1. РњРµС‚РѕРґ, РєРѕР№С‚Рѕ РїРѕ РґР°РґРµРЅ РЅРёР· РѕС‚РїРµС‡Р°С‚РІР° СЃРїРёСЃСЉРє СЃСЉСЃ Р·Р°РіР»Р°РІРёСЏС‚Р° РЅР° РїСѓР±Р»РёРєР°С†РёРёС‚Рµ, РІ РєРѕРёС‚Рѕ С‚РѕР·Рё РЅРёР· СЃРµ СЃСЂРµС‰Р° РєР°С‚Рѕ РїРѕРґРЅРёР· РІ С‚РµРєСЃС‚Р° РЅР° РїСѓР±Р»РёРєР°С†РёСЏС‚Р°. РўСЂСЏР±РІР° РїСЉСЂРІРѕ РґР° СЃРµ РѕС‚РїРµС‡Р°С‚РІР°С‚ РїСѓР±Р»РёРєР°С†РёРёС‚Рµ, РІ С‚РµРєСЃС‚Р°, РЅР° РєРѕРёС‚Рѕ РїРѕРґРЅРёР·Р° СЃРµ СЃСЂРµС‰Р° РЅР°Р№-С‡РµСЃС‚Рѕ. РџСЂРёРјРµСЂ: РќРёР·СЉС‚ Рµ OOP Р—Р°РіР»Р°РІРёРµ: Definition of OOP Concepts in Java (https://stackify.com/oops-concepts-in-java/) РўРµРєСЃС‚: OOP concepts in Java are the main ideas behind JavaвЂ™s Object Oriented Programming. They are an abstraction, encapsulation, inheritance, and polymorphism. Grasping them is key to understanding how Java works. Basically, Java OOP concepts let us create working methods and variables, then reuse all or part of them without compromising security. 
  
-Заглавие: What is object oriented programming (OOP)?  (https://www.nextacademy.com/blog/object-oriented-programming-oop/) Текст: Object Oriented Programming (OOP) is the foundation of mastering most of the widely used programming languages such as Java, Python, Ruby and, of course, Swift. It helps you in the process of designing your app because an app without any proper planning will make you go crazy (trust me, been there, done that). 
+Р—Р°РіР»Р°РІРёРµ: What is object oriented programming (OOP)?  (https://www.nextacademy.com/blog/object-oriented-programming-oop/) РўРµРєСЃС‚: Object Oriented Programming (OOP) is the foundation of mastering most of the widely used programming languages such as Java, Python, Ruby and, of course, Swift. It helps you in the process of designing your app because an app without any proper planning will make you go crazy (trust me, been there, done that). 
  
-В текста на първата публикация търсения низ (OOP) се среща 2 пъти, а във втората публикация веднъж. 
+Р’ С‚РµРєСЃС‚Р° РЅР° РїСЉСЂРІР°С‚Р° РїСѓР±Р»РёРєР°С†РёСЏ С‚СЉСЂСЃРµРЅРёСЏ РЅРёР· (OOP) СЃРµ СЃСЂРµС‰Р° 2 РїСЉС‚Рё, Р° РІСЉРІ РІС‚РѕСЂР°С‚Р° РїСѓР±Р»РёРєР°С†РёСЏ РІРµРґРЅСЉР¶. 
